@@ -16,7 +16,7 @@ int CalculateSchleife(int H)
 int main ()
 {
     int n;
-
+// What happens if I insert this here?
     printf("Geben Sie eine Zahl ein \n");
     scanf("%i", &n);
     n = CalculateSchleife(n);
