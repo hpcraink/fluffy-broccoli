@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+//WIDM hat ein Kommentar eingefügt
 int CalculateSchleife(int H)
 {
     float addedn = 0;
