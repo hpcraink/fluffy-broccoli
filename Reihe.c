@@ -1,25 +1,29 @@
 #include <stdio.h>
-#include <math.h>
-//WIDM hat ein Kommentar eingefügt und anschließen geaendert
-int CalculateSchleife(int H)
-{
-    float addedn = 0;
-    int i=0;
 
-    for( i = 1; addedn < H; i++)
-    {        
-        addedn = addedn + (1./i);
+int main() {
+    int tassenKaffee = 0;
+
+    printf("Willkommen bei der fantastischen Kaffeemaschine!\n");
+
+    while (tassenKaffee < 5) {
+        printf("Möchtest du eine Tasse Kaffee? (Ja/Nein): ");
+        char antwort[3];
+        scanf("%s", antwort);
+
+        if (strcmp(antwort, "Ja") == 0 || strcmp(antwort, "ja") == 0) {
+            tassenKaffee++;
+            printf("Tasse Kaffee Nr. %d wird zubereitet. Genieße es!\n", tassenKaffee);
+        } else if (strcmp(antwort, "Nein") == 0 || strcmp(antwort, "nein") == 0) {
+            printf("Vielleicht nächstes Mal. Auf Wiedersehen!\n");
+            break;
+        } else {
+            printf("Ungültige Antwort. Bitte gib 'Ja' oder 'Nein' ein.\n");
+        }
     }
-    return i;
-}
 
-int main ()
-{
-    int n;
-// What happens if I insert this here?
-    printf("Geben Sie eine Zahl ein \n");
-    scanf("%i", &n);
-    n = CalculateSchleife(n);
-    printf("Die Summe ist = %i",n);
-    return EXIT_SUCCESS;
+    if (tassenKaffee >= 5) {
+        printf("Du hast zu viele Tassen Kaffee getrunken! -Kaffeeoverflow- \n");
+    }
+
+    return 0;
 }
