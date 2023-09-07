@@ -1,5 +1,5 @@
 # fluffy-broccoli
 
 int Test;
-int Test2; // SEGH
+int Test2; // Kommentar von SEGH
 int neuneu;
