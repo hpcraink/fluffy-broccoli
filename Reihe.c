@@ -12,7 +12,7 @@ int CalculateSchleife(int H)
     }
     return i;
 }
-
+// Neu comment 07.09
 int main ()
 {
     int n;
