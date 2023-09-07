@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-//Kommentar aus Visual Studio Code
+//Kommentar aus Visual Studio Code ///SEGH
 
 int CalculateSchleife(int H)
 {
