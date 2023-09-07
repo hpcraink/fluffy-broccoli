@@ -21,5 +21,5 @@ int main ()
     scanf("%i", &n);
     n = CalculateSchleife(n);
     printf("Die Summe ist = %i",n);
-    return 0;
+    return EXIT_SUCCESS;
 }
