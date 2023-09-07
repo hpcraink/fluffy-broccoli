@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 //WIDM hat ein Kommentar eingefügt und anschließen geaendert
-//SEGH hat ein Kommentar eingefügt //07.09.2023
-
+////SEGH hat ein Kommentar eingefügt //07.09.2023
 int CalculateSchleife(int H)
 {
     float addedn = 0;
