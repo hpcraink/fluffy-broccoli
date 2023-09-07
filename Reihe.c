@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 //WIDM hat ein Kommentar eingefügt und anschließen geaendert
+// SEGH Kommentar 
 int CalculateSchleife(int H)
 {
     float addedn = 0;
