@@ -2,4 +2,4 @@
 
 int Test;
 int Test2; // Kommentar von SEGH
-int neuneu;
+int neu;
