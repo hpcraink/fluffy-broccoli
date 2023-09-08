@@ -2,7 +2,7 @@
 ##Branch for fun GNMS
 *This text is italicized*
 
-![Git cat] (C:\Users\GNMS\Pictures\image-rendered.webp)
+![Git cat] (C:\Users\GNMS\Pictures\Unbenannt.png)
 
 int Test;
 int Test2; // Kommentar von SEGH
