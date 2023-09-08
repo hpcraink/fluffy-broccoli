@@ -1,4 +1,8 @@
 # fluffy-broccoli
+##Branch for fun GNMS
+*This text is italicized*
+
+![Git cat] (C:\Users\GNMS\Pictures\image-rendered.webp)
 
 int Test;
 int Test2; // Kommentar von SEGH
